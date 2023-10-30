@@ -17,5 +17,5 @@ The codes have been presented here for their instructional value only. They have
 
 When the state is estimated, the resulted errors of the MCC-KF implementation methods should be the same because they are mathematically equivalent to each other. Their numerical properties differ, but the ill-conditioned test examples are not given here. Similarly, the resulted errors of the IMCC-KF implementation methods should be the same because they are mathematically equivalent to each other. 
 
-# List of the MCC-KF implementation methods
-# List of the IMCC-KF implementation methods
+## List of the MCC-KF implementation methods
+## List of the IMCC-KF implementation methods
