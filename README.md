@@ -1,4 +1,4 @@
-# Discrete-Time MCC-KF and IMCC-KF Implementation Methods
+# Discrete-time MCC-KF and IMCC-KF implementation methods
 This repository contains MATLAB functions with various implementation methods of the Maximum Correntropy Criterion Kalman Filter (MCC-KF) by Izanloo et.al. (2016, <a href="https://doi.org/10.1109/CISS.2016.7460553">DOI</a>) and improved MCC-KF (IMCC-KF) by Kulikova (2017, <a href="https://doi.org/10.1016/j.sysconle.2017.07.016">DOI</a>) with a scalar adjusting parameters. They are given in a posteriori form, i.e., no data are assumed to be known at the initial step and, hence, the time update comes first.
 # References
 Each code (implementation method) includes the exact reference where the particular algorithm was published. 
