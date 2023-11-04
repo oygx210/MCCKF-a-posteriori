@@ -26,7 +26,7 @@ p = pwd; cd('Methods-MCCKF');
     handle_funs{4} = @Riccati_MCCKF_rSRCF_QL;   % robust SRCF by Kulikova (2020), lower triangular factors
 
    % ----- SVD-based methods --------------------
-    handle_funs{5} = @Riccati_MCCKF_SVD;        % SVD-based covariance filter by Kulikova (2019)
+    handle_funs{5} = @Riccati_MCCKF_SVD;        % SVD-based mixed-type filter by Kulikova (2019)
     handle_funs{6} = @Riccati_MCCKF_rSVD;       % robust SVD-based covariance filter by Kulikova (2019)
 
 cd(p); 
