@@ -1,6 +1,6 @@
 % ------------------------------------------------------------------- 
 % SVD-based Maximum Correntropy Criterion Kalman Filter (MCC-KF)
-%      Type: Covariance filtering
+%      Type: Mixed-type filtering
 %    Method: SVD-based implementation
 %      From: Two stages, a posteriori form, column representation of arrays
 % Recursion: Riccati-type underlying recursion
