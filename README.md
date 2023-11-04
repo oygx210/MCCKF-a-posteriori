@@ -31,7 +31,7 @@ When the state is estimated, the resulted errors of the MCC-KF implementation me
 ## List of the IMCC-KF implementation methods
 - Conventional algorithms:
   - `Riccati_IMCCKF` is the conventional implementation by Kulikova (2017), <a href="https://doi.org/10.1016/j.sysconle.2017.07.016">DOI</a>
-  - `Riccati_IMCCKF_seq' is the Sequential (component-wise measurement update) method by Kulikova (2020), <a href="https://doi.org/10.1002/asjc.1865">DOI</a>
+  - `Riccati_IMCCKF_seq` is the Sequential (component-wise measurement update) method by Kulikova (2020), <a href="https://doi.org/10.1002/asjc.1865">DOI</a>
 - Square-root Cholesky factorization-based methods:
   - `Riccati_IMCCKF_SRCF_QR` is the Square-Root Covariance Filter (SRCF) with upper triangular factors by Kulikova (2017), <a href="https://doi.org/10.1016/j.sysconle.2017.07.016">DOI</a>
   - `Riccati_IMCCKF_eSRCF_QR` is the Extended SRCF with upper triangular factors by Kulikova (2017), <a href="https://doi.org/10.1016/j.sysconle.2017.07.016">DOI</a>
