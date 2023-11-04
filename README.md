@@ -19,13 +19,13 @@ When the state is estimated, the resulted errors of the MCC-KF implementation me
 
 ## List of the MCC-KF implementation methods
 - Conventional algorithms:
- -  `Riccati_MCCKF` is the original implementation by Izanloo et.al. (2016, <a href="https://doi.org/10.1109/CISS.2016.7460553">DOI</a>)
+  - `Riccati_MCCKF` is the original implementation by Izanloo et.al. (2016, <a href="https://doi.org/10.1109/CISS.2016.7460553">DOI</a>)
 - Square-root Cholesky factorization-based methods:
- -  `Riccati_MCCKF_SRCF_QR`   is the Square-Root Covariance Filter (SRCF) with upper triangular factors by Kulikova (2019), <a href="https://doi.org/10.1016/j.sigpro.2019.03.003">DOI</a> 
- -  `Riccati_MCCKF_SRCF_QL`   is the SRCF with lower triangular factors by Kulikova (2020), <a href="https://doi.org/10.1016/j.ifacol.2020.12.264">DOI</a>
- -  `Riccati_MCCKF_rSRCF_QL`  is the robust SRCF with lower triangular factors by Kulikova (2020), <a href="https://doi.org/10.1016/j.ifacol.2020.12.264">DOI</a> 
+  - `Riccati_MCCKF_SRCF_QR`   is the Square-Root Covariance Filter (SRCF) with upper triangular factors by Kulikova (2019), <a href="https://doi.org/10.1016/j.sigpro.2019.03.003">DOI</a> 
+  - `Riccati_MCCKF_SRCF_QL`   is the SRCF with lower triangular factors by Kulikova (2020), <a href="https://doi.org/10.1016/j.ifacol.2020.12.264">DOI</a>
+  - `Riccati_MCCKF_rSRCF_QL`  is the robust SRCF with lower triangular factors by Kulikova (2020), <a href="https://doi.org/10.1016/j.ifacol.2020.12.264">DOI</a> 
 - Square-root SVD factorization-based methods:
- -  `Riccati_MCCKF_SVD`    is the SVD-based Covariance Filter by Kulikova (2019), <a href="https://doi.org/10.1016/j.sigpro.2019.03.003">DOI</a>
- -  `Riccati_MCCKF_rSVD`   is the robust SVD-based Covariance Filter by Kulikova (2019), <a href="https://doi.org/10.1016/j.sigpro.2019.03.003">DOI</a>
+  - `Riccati_MCCKF_SVD`    is the SVD-based Covariance Filter by Kulikova (2019), <a href="https://doi.org/10.1016/j.sigpro.2019.03.003">DOI</a>
+  - `Riccati_MCCKF_rSVD`   is the robust SVD-based Covariance Filter by Kulikova (2019), <a href="https://doi.org/10.1016/j.sigpro.2019.03.003">DOI</a>
 
 ## List of the IMCC-KF implementation methods
