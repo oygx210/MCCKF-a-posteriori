@@ -42,5 +42,5 @@ When the state is estimated, the resulted errors of the MCC-KF implementation me
 [^2]: Kulikova, M.V. (2017) Square-root algorithms for maximum correntropy estimation of linear discrete-time systems in presence of non-Gaussian noise. Systems and Control Letters, 108: 8-15. <a href="https://doi.org/10.1016/j.sysconle.2017.07.016">DOI</a>, <a href="https://arxiv.org/abs/1611.03686">PDF on ArXiv</a>
 [^3]: Kulikova, M.V. (2019) Factored-form Kalman-like implementations under maximum correntropy criterion. Signal Processing. 160:328-38.  <a href="https://doi.org/10.1016/j.sigpro.2019.03.003">DOI</a>, <a href="https://arxiv.org/pdf/2311.02440">PDF on ArXiv</a>
 [^4]: Kulikova, M.V. (2020) On the stable Cholesky factorization-based method for the maximum correntropy criterion Kalman filtering. IFAC-PapersOnLine. 53(2):482-7. <a href="https://doi.org/10.1016/j.ifacol.2020.12.264">DOI</a>, <a href="https://arxiv.org/pdf/2311.02438">PDF on ArXiv</a>
-[^5]: Kulikova, M.V. (2020) Sequential maximum correntropy Kalman filtering. Asian Journal of Control. 22(1):25-33. <a href="https://doi.org/10.1002/asjc.1865">DOI</a>
+[^5]: Kulikova, M.V. (2020) Sequential maximum correntropy Kalman filtering. Asian Journal of Control. 22(1):25-33. <a href="https://doi.org/10.1002/asjc.1865">DOI</a>, <a href="https://onlinelibrary.wiley.com/doi/pdf/10.1002/asjc.1865">PDF on Wiley</a>
 
