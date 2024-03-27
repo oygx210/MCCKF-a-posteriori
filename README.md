@@ -1,10 +1,11 @@
 # Discrete-time MCC-KF and IMCC-KF implementation methods
-This repository contains MATLAB functions with various implementation methods of the Maximum Correntropy Criterion Kalman Filter (MCC-KF) by Izanloo et.al. (2016, <a href="https://doi.org/10.1109/CISS.2016.7460553">DOI</a>) and improved MCC-KF (IMCC-KF) by Kulikova (2017, <a href="https://doi.org/10.1016/j.sysconle.2017.07.016">DOI</a>, <a href="https://arxiv.org/abs/1610.00257">ArXiv</a>) with a scalar adjusting parameters. They are given in a posteriori form, i.e., no data are assumed to be known at the initial step and, hence, the time update comes first.
-# References
-Each code (implementation method) includes the exact reference where the particular algorithm was published. 
-If you use these codes in your research, please, cite the corresponding articles mentioned in the codes.  
+This repository contains MATLAB functions with various implementation methods of the Maximum Correntropy Criterion Kalman Filter (MCC-KF) by Izanloo et.al. (2016)[^1] and improved MCC-KF (IMCC-KF) by Kulikova (2017)[^2] with a scalar adjusting parameters. They are given in a posteriori form, i.e., no data are assumed to be known at the initial step and, hence, the time update comes first.
 
-# Remark
+### References
+Each code (implementation method) includes the exact reference where the particular algorithm was published. 
+If you use these codes in your research, please, cite the corresponding articles mentioned in the codes or in the list below.  
+
+### Remark
 The codes have been presented here for their instructional value only. They have been tested with care but are not guaranteed to be free of error and, hence, they should not be relied on as the sole basis to solve problems. 
 
 # Steps to reproduce
@@ -38,3 +39,5 @@ When the state is estimated, the resulted errors of the MCC-KF implementation me
 - Square-root SVD factorization-based methods:
   - `Riccati_IMCCKF_SVD` is the SVD-based mixed-type Filter by Kulikova (2019), <a href="https://doi.org/10.1016/j.sigpro.2019.03.003">DOI</a>
 
+[^1]: Izanloo, R. and Fakoorian, S.A. and Yazdi, H.S. and Simon D. (2016) Kalman filtering based on the maximum correntropy criterion in the presence of non-Gaussian noise, in: 2016 Annual Conference on Information Science and Systems (CISS), 2016, pp. 500-505. <a href="https://doi.org/10.1109/CISS.2016.7460553">DOI</a>
+[^2]: Kulikova, M.V. (2017) Square-root algorithms for maximum correntropy estimation of linear discrete-time systems in presence of non-Gaussian noise. Systems and Control Letters, 108: 8-15. <a href="https://doi.org/10.1016/j.sysconle.2017.07.016">DOI</a>, <a href="https://arxiv.org/abs/1611.03686">PDF on ArXiv</a>
