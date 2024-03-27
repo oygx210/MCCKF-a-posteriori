@@ -24,14 +24,10 @@ When the state is estimated, the resulted errors of the MCC-KF implementation me
 | ---: | :--- |
 | `Riccati_MCCKF` | Conventional implementation, original method[^1]|
 | `Riccati_MCCKF_SRCF_QR` | Square-Root Covariance Filter (SRCF) with upper triangular factors[^3]|
-
- Square-root Cholesky factorization-based methods:
-  - `Riccati_MCCKF_SRCF_QR`   is the Square-Root Covariance Filter (SRCF) with upper triangular factors by Kulikova (2019), 
-  - `Riccati_MCCKF_SRCF_QL`   is the SRCF with lower triangular factors by Kulikova (2020), <a href="https://doi.org/10.1016/j.ifacol.2020.12.264">DOI</a>
-  - `Riccati_MCCKF_rSRCF_QL`  is the robust SRCF with lower triangular factors by Kulikova (2020), <a href="https://doi.org/10.1016/j.ifacol.2020.12.264">DOI</a> 
-- Square-root SVD factorization-based methods:
-  - `Riccati_MCCKF_SVD`    is the SVD-based mixed-type Filter by Kulikova (2019), <a href="https://doi.org/10.1016/j.sigpro.2019.03.003">DOI</a>
-  - `Riccati_MCCKF_rSVD`   is the robust SVD-based Covariance Filter by Kulikova (2019), <a href="https://doi.org/10.1016/j.sigpro.2019.03.003">DOI</a>
+| `Riccati_MCCKF_SRCF_QL` | SRCF with lower triangular factors[^4]|
+| `Riccati_MCCKF_rSRCF_QL` | Robust SRCF with lower triangular factors[^4]|
+| `Riccati_MCCKF_SVD` | SVD-based mixed-type Filter[^3]|
+| `Riccati_MCCKF_rSVD` | Robust SVD-based Covariance Filter[^3]|
 
 ## List of the IMCC-KF implementation methods
 - Conventional algorithms:
@@ -46,3 +42,4 @@ When the state is estimated, the resulted errors of the MCC-KF implementation me
 [^1]: Izanloo, R. and Fakoorian, S.A. and Yazdi, H.S. and Simon D. (2016) Kalman filtering based on the maximum correntropy criterion in the presence of non-Gaussian noise, in: 2016 Annual Conference on Information Science and Systems (CISS), 2016, pp. 500-505. <a href="https://doi.org/10.1109/CISS.2016.7460553">DOI</a>
 [^2]: Kulikova, M.V. (2017) Square-root algorithms for maximum correntropy estimation of linear discrete-time systems in presence of non-Gaussian noise. Systems and Control Letters, 108: 8-15. <a href="https://doi.org/10.1016/j.sysconle.2017.07.016">DOI</a>, <a href="https://arxiv.org/abs/1611.03686">PDF on ArXiv</a>
 [^3]: Kulikova, M.V. (2019) Factored-form Kalman-like implementations under maximum correntropy criterion. Signal Processing. 160:328-38.  <a href="https://doi.org/10.1016/j.sigpro.2019.03.003">DOI</a>, <a href="https://arxiv.org/pdf/2311.02440">PDF on ArXiv</a>
+[^4]: Kulikova, M.V. (2020) On the stable Cholesky factorization-based method for the maximum correntropy criterion Kalman filtering. IFAC-PapersOnLine. 53(2):482-7. <a href="https://doi.org/10.1016/j.ifacol.2020.12.264">DOI</a>, <a href="https://arxiv.org/pdf/2311.02438">PDF on ArXiv</a>
