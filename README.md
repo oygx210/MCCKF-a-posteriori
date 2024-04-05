@@ -1,14 +1,14 @@
-# Discrete-time MCC-KF and IMCC-KF implementation methods
+## Discrete-time MCC-KF and IMCC-KF implementation methods
 This repository contains MATLAB functions with various implementation methods of the Maximum Correntropy Criterion Kalman Filter (MCC-KF) by Izanloo et.al. (2016)[^1] and improved MCC-KF (IMCC-KF) by Kulikova (2017)[^2] with a scalar adjusting parameters. They are given in a posteriori form, i.e., no data are assumed to be known at the initial step and, hence, the time update comes first.
 
-## References
+**References**
 Each code (implementation method) includes the exact reference where the particular algorithm was published. 
 If you use these codes in your research, please, cite the corresponding articles mentioned in the codes or in the list below.  
 
-## Remark
+**Remark**
 The codes have been presented here for their instructional value only. They have been tested with care but are not guaranteed to be free of error and, hence, they should not be relied on as the sole basis to solve problems. 
 
-# Steps to reproduce
+### Steps to reproduce
 - `Test_MCCKFs` is the script that performs Monte Carlo runs for solving filtering problem by various MCC-KF implementations.
 - `Test_IMCCKFs` is the script that performs Monte Carlo runs for solving filtering problem by various IMCC-KF implementations.
 - `Test_PI` is the script for calculating the Performance Index (Baram Proximity Measure) by various filtering algorithms. 
@@ -18,7 +18,7 @@ The codes have been presented here for their instructional value only. They have
 
 When the state is estimated, the resulted errors of the MCC-KF implementation methods should be the same because they are mathematically equivalent to each other. Their numerical properties differ, but the ill-conditioned test examples are not given here. Similarly, the resulted errors of the IMCC-KF implementation methods should be the same because they are mathematically equivalent to each other. 
 
-# List of the MCC-KF implementation methods 
+### List of the MCC-KF implementation methods 
 **Riccati recursion-based MCC-KF implementation methods:**
 | Function | Description |
 | ---: | :--- |
