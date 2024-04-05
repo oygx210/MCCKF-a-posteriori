@@ -29,6 +29,7 @@ When the state is estimated, the resulted errors of the MCC-KF implementation me
 | `Riccati_MCCKF_SVD` | SVD-based mixed-type Filter[^3]|
 | `Riccati_MCCKF_rSVD` | Robust SVD-based Covariance Filter[^3]|
 
+### List of the IMCC-KF implementation methods 
 **Riccati recursion-based IMCC-KF implementation methods:**
 | Function | Description |
 | ---: | :--- |
